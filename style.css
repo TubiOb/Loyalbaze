@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 14px/1.5 Arial, Helvetica, sans-serif;
+    /* color: white */
+}
+
+body {
+    background-color: #1d3557;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    max-height: 40px;
+    width: 100%;
+    padding: 2px 20px;
+}

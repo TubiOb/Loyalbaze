@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font: 14px/1.5 Arial, Helvetica, sans-serif;
+    color: #ffff;
 }
 
 body {
@@ -26,7 +27,7 @@ nav {
     left: 0;
     right: 0;
     outline: none;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     max-width: 100%;
     padding: 5px 0;
     z-index: 99;
@@ -231,37 +232,42 @@ p {
 }
 
 #following {
-    width: 60%;
+    width: 55%;
     padding: 5px;
     border: 1px solid gold;
     position: relative;
     margin: auto;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 #names {
     display: flex;
-    width: 50%;
+    width: 40%;
     height: 40px;
     text-align: center;
     justify-content: center;
     align-items: center;
     border: 1px solid saddlebrown;
-    padding: 10px;
+    padding: 5px;
 }
 
 #members {
     display: flex;
-    width: 40%;
-    height: 40px;
+    width: 45%;
+    height: 20px;
     border: 1px solid darkorchid;
     text-align: center;
     justify-content: center;
     align-items: center;
     padding: 5px;
+}
+
+#members p {
+    margin-bottom: 0px;
+    font-size: 13px;
 }
 
 .circles {
@@ -289,6 +295,7 @@ p {
     background: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 99.1%);
     background: #121B27;
     box-shadow: inset 2px 4px 20px #001D6E;
+    margin-left: -8px;
     /* z-index: -1; */
 }
 
@@ -298,6 +305,7 @@ p {
     background: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 99.1%);
     background: #BA2AD1;
     box-shadow: inset 2px 4px 20px #001D6E;
+    margin-left: -8px;
     /* z-index: -1; */
 }
 
@@ -307,5 +315,19 @@ p {
     background: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 99.1%);
     background: #5404FF;
     box-shadow: inset 2px 4px 20px #001D6E;
+    margin-left: -8px;
     /* z-index: -1; */
 }
+
+#bubble4 {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 7%;
+    top: 81%;
+    background: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 99.1%);
+    box-shadow: inset 2px 4px 20px #001D6E;
+    z-index: -1;
+}
+
+#prioform {}

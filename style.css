@@ -321,13 +321,111 @@ p {
 
 #bubble4 {
     position: absolute;
-    width: 72px;
-    height: 72px;
-    left: 7%;
-    top: 81%;
+    width: 42px;
+    height: 42px;
+    left: 5%;
+    top: 82%;
     background: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 99.1%);
     box-shadow: inset 2px 4px 20px #001D6E;
     z-index: -1;
 }
 
-#prioform {}
+#prioform {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border: none;
+    border: 1px solid seagreen;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    border: 1px solid silver;
+    justify-content: center;
+    align-items: center;
+}
+
+#main h2 {
+    word-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+#sidebar {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid slateblue;
+    border-radius: 18px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b263b;
+}
+
+.consultationForm {
+    width: 100%;
+    border: 1px solid silver;
+    padding: 10px;
+    border-radius: 18px;
+    font-size: 14px;
+    overflow: hidden;
+    outline: none;
+}
+
+.consult,
+select {
+    width: 90%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background: #121B27;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.consult:focus,
+select:focus {
+    border: 2px solid gray;
+}
+
+.consult::placeholder {
+    font-size: 13px;
+}
+
+select:hover {
+    background-color: 1px solid gray;
+}
+
+#comments {
+    width: 90%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background: #121B27;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#request {
+    font-size: 13px;
+    width: 90%;
+    height: 30px;
+    border-radius: 15px;
+    /* background-color: #121B27; */
+    background-image: linear-gradient(42.7deg, #5404FF 7.9%, #BA2AD1 88.1%);
+    outline: none;
+    border: none;
+    color: white;
+}

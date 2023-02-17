@@ -388,8 +388,8 @@ select {
     padding: 10px;
     outline: none;
     border: 1px solid gray;
-    border-radius: 15px;
-    background: #121B27;
+    border-radius: 10px;
+    background: #1b263b;
     color: white;
     margin-bottom: 5px;
 }
@@ -413,9 +413,9 @@ select:hover {
     outline: none;
     border: 1px solid gray;
     border-radius: 15px;
-    background: #121B27;
+    background: #1b263b;
     color: white;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 #request {

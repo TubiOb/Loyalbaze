@@ -19,7 +19,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 40px;
     cursor: pointer;
     position: fixed;
@@ -27,7 +27,6 @@ nav {
     left: 0;
     right: 0;
     outline: none;
-    /* margin-top: 5px; */
     max-width: 100%;
     padding: 5px 0;
     z-index: 99;
@@ -46,14 +45,14 @@ nav a {
 
 h1 {
     color: white;
+    font-size: 17px;
 }
 
 #heart {
     position: relative;
-    width: 5px;
-    height: 5px;
+    width: 7px;
+    height: 7px;
     margin-left: -3px;
-    /* background: linear-gradient(139.25deg, rgba(23, 92, 225, 0.71) 3.07%, rgba(167, 95, 210, 0.94) 66.81%); */
 }
 
 #heart:before,
@@ -62,8 +61,8 @@ h1 {
     content: "";
     left: 5px;
     top: 5px;
-    width: 5px;
-    height: 8px;
+    width: 7px;
+    height: 10px;
     background: linear-gradient(139.25deg, rgba(23, 92, 225, 0.71) 3.07%, rgba(167, 95, 210, 0.94) 66.81%);
     border-radius: 50px 50px 0 0;
     transform: rotate(-45deg);
@@ -122,10 +121,8 @@ h1 {
     margin-top: 60px;
     overflow: hidden;
     outline: none;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     position: relative;
-    /* justify-content: space-evenly; */
-    /* align-items: center; */
 }
 
 #bubble2 {
@@ -148,12 +145,12 @@ h1 {
     margin-top: 40px;
     color: white;
     font-size: 13px;
-    border: 1px solid palevioletred;
+    /* border: 1px solid palevioletred; */
 }
 
 form {
     width: 90%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: auto;
     padding: 5px;
 }
@@ -172,11 +169,8 @@ form {
 .fa-thin {
     padding: 10px;
     background: #121B27;
-    /* color: white; */
     min-width: 50px;
     text-align: center;
-    /* border: 1px solid red; */
-    /* margin-top: 11px; */
     fill: none;
 }
 
@@ -202,7 +196,6 @@ form {
     width: 100%;
     height: 30px;
     border-radius: 15px;
-    /* background-color: #121B27; */
     background-image: linear-gradient(42.7deg, #5404FF 7.9%, #BA2AD1 88.1%);
     outline: none;
     border: none;
@@ -238,7 +231,7 @@ p {
 #following {
     width: 55%;
     padding: 5px;
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
     position: relative;
     margin: auto;
     color: white;
@@ -254,7 +247,7 @@ p {
     text-align: center;
     justify-content: center;
     align-items: center;
-    border: 1px solid saddlebrown;
+    /* border: 1px solid saddlebrown; */
     padding: 5px;
 }
 
@@ -262,7 +255,7 @@ p {
     display: flex;
     width: 45%;
     height: 20px;
-    border: 1px solid darkorchid;
+    /* border: 1px solid darkorchid; */
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -280,47 +273,34 @@ p {
     height: 32px;
     border-radius: 50%;
     padding: 10px;
-    /* z-index: 0; */
     text-align: center;
 }
 
 #circle1 {
-    /* left: 15%; */
-    /* top: 10%; */
     background: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 99.1%);
     box-shadow: inset 2px 4px 20px #001D6E;
     text-align: center;
-    /* z-index: -1; */
 }
 
 #circle2 {
-    /* left: 15%; */
-    /* top: 11%; */
     background: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 99.1%);
     background: #121B27;
     box-shadow: inset 2px 4px 20px #001D6E;
     margin-left: -8px;
-    /* z-index: -1; */
 }
 
 #circle3 {
-    /* left: 24%; */
-    /* top: 11%; */
     background: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 99.1%);
     background: #BA2AD1;
     box-shadow: inset 2px 4px 20px #001D6E;
     margin-left: -8px;
-    /* z-index: -1; */
 }
 
 #circle4 {
-    /* left: 34%; */
-    /* top: 11%; */
     background: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 99.1%);
     background: #5404FF;
     box-shadow: inset 2px 4px 20px #001D6E;
     margin-left: -8px;
-    /* z-index: -1; */
 }
 
 #bubble4 {
@@ -341,7 +321,7 @@ p {
     flex-wrap: wrap;
     overflow: hidden;
     border: none;
-    border: 1px solid seagreen;
+    /* border: 1px solid seagreen; */
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -354,7 +334,7 @@ p {
     padding: 10px;
     border: none;
     margin-top: 10px;
-    border: 1px solid silver;
+    /* border: 1px solid silver; */
     justify-content: center;
     align-items: center;
 }
@@ -368,22 +348,29 @@ p {
     width: 90%;
     margin: auto;
     overflow: hidden;
-    border: 1px solid slateblue;
+    /* border: 1px solid slateblue; */
     border-radius: 18px;
     margin-top: 10px;
     justify-content: center;
     align-items: center;
-    background-color: #1b263b;
 }
 
 .consultationForm {
     width: 100%;
-    border: 1px solid silver;
+    /* border: 1px solid silver; */
     padding: 10px;
     border-radius: 18px;
     font-size: 14px;
     overflow: hidden;
     outline: none;
+    background-color: #1b263b;
+}
+
+h4 {
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 15px;
 }
 
 .consult,
@@ -427,7 +414,6 @@ select:hover {
     width: 90%;
     height: 30px;
     border-radius: 15px;
-    /* background-color: #121B27; */
     background-image: linear-gradient(42.7deg, #5404FF 7.9%, #BA2AD1 88.1%);
     outline: none;
     border: none;
@@ -507,5 +493,38 @@ select:hover {
     #members p {
         margin-bottom: 0px;
         font-size: 13px;
+    }
+    #bubble4 {
+        top: 72%;
+    }
+    #prioform {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+    #main {
+        width: 40%;
+        padding: 50px;
+        margin-top: 80px;
+        text-align: center;
+    }
+    #sidebar {
+        width: 50%;
+    }
+    .consultationForm {
+        width: 50%;
+    }
+    .consult,
+    select {
+        width: 90%;
+        padding: 10px;
+        outline: none;
+        border: 1px solid gray;
+        border-radius: 10px;
+        background: #1b263b;
+        color: white;
+        margin-bottom: 10px;
     }
 }

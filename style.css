@@ -420,6 +420,11 @@ select:hover {
     color: white;
 }
 
+hr {
+    width: 90%;
+    margin: auto;
+}
+
 @media(min-width:760px) {
     nav {
         justify-content: space-between;

@@ -84,7 +84,7 @@ h1 {
     overflow: hidden;
     align-items: center;
     justify-content: center;
-    opacity: 0;
+    opacity: 1;
     animation: slideLeft 2s ease backwards;
 }
 

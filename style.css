@@ -46,6 +46,10 @@ nav a {
 h1 {
     color: white;
     font-size: 17px;
+    text-decoration: none;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 2s ease forwards;
 }
 
 #heart {
@@ -80,6 +84,8 @@ h1 {
     overflow: hidden;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    animation: slideLeft 2s ease backwards;
 }
 
 #Priority {
@@ -145,6 +151,8 @@ h1 {
     margin-top: 40px;
     color: white;
     font-size: 13px;
+    opacity: 0;
+    animation: slideDown 2s ease forwards;
     /* border: 1px solid palevioletred; */
 }
 
@@ -337,6 +345,8 @@ p {
     /* border: 1px solid silver; */
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    animation: slideRight 2s ease forwards;
 }
 
 #main h2 {
@@ -353,6 +363,8 @@ p {
     margin-top: 10px;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    animation: slideLeft 2s ease forwards;
 }
 
 .consultationForm {
@@ -465,6 +477,39 @@ footer p {
     align-items: center;
     text-align: center;
     margin-bottom: 10px;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 @media(min-width:760px) {

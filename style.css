@@ -423,6 +423,53 @@ select:hover {
 hr {
     width: 90%;
     margin: auto;
+    margin-top: 40px;
+}
+
+footer {
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    border: 1px solid red;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#address {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 5px;
+    border: 1px solid darkgreen;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#right {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid darkgreen;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin-bottom: 0px;
+}
+
+#middle {
+    width: 100%;
+    /* display: inline-flex; */
+    justify-content: space-around;
+    padding: 5px;
+    border: 1px solid darkmagenta;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 @media(min-width:760px) {
